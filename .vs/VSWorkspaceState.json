@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\frontend\\public",
-    "\\frontend\\src"
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\pages"
   ],
-  "SelectedNode": "\\backend\\app.js",
+  "SelectedNode": "\\frontend\\src\\pages\\Homepage.js",
   "PreviewInSolutionExplorer": false
 }
