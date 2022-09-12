@@ -32,12 +32,12 @@ export const TradePost = () => {
     return (<Contain>
         
         <div className="container" id="trade-post">
-            <center>  <button onClick={turnCreateOn} className="btn btn-light">Create a Trade Post</button> <button className="btn btn-light" onClick={turnViewOn}>View Trade Posts</button> </center>
+            <center>  <button onClick={turnCreateOn} id="create" className="btn btn-light">Create a Trade Post</button> <button id="view" className="btn btn-light" onClick={turnViewOn}>View Trade Posts</button> </center>
         </div>
 
 
         <div className="container" id="results">
-            {createOn ? <CreatePost /> : null}
+            {createOn ? <CreatePost turnViewOn={turnViewOn} /> : null}
 
             {viewOn && <ViewPosts />}
 
@@ -62,5 +62,14 @@ button {margin-left: 5rem; margin-right: 5rem;}
 margin-top: 5rem;
 
 }
+
+#create{
+margin-bottom: 10px;
+}
+
+#view{
+margin-bottom: 10px;
+}
+
     
 `;

@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 import axios from 'axios';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export const CreatePost = () => {
+
+export const CreatePost = ({turnViewOn}) => {
+
+    const navigate = useNavigate();
 
     const [inputs, setInputs] = useState({
         teamName: "",
@@ -30,7 +34,9 @@ export const CreatePost = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        sendRequest();
+        sendRequest().then((turnViewOn));
+        
+        
     }
 
     return (
@@ -41,12 +47,12 @@ export const CreatePost = () => {
                 <input onChange={handleChange} type="text" className="form-control" name="teamName" placeholder="Enter Team Name" />
 
                 <label for="teamName">Willing to Trade</label>
-                <input onChange={handleChange} type="text" className="form-control" name="teamName" placeholder="Enter Player Names" />
+                <input onChange={handleChange} type="text" className="form-control" name="willingToTrade" placeholder="Enter Player Names" />
 
-                <label for="teamName">Positions I want to Recieve</label>
-                <input onChange={handleChange} type="text" className="form-control" name="teamName" placeholder="Enter Positions (E.G WR1, WR2, RB1, RB2, ETC) " />
+                <label for="teamName">Positions I want to Receive</label>
+                <input onChange={handleChange} type="text" className="form-control" name="wantToReceive" placeholder="Enter Positions (E.G WR1, WR2, RB1, RB2, ETC) " />
                 
-                <center><button>Submit proposal to Trade Post</button></center>
+                <center><button className="btn btn-primary">Submit proposal to Trade Post</button></center>
 
             </form>
         </Contain>

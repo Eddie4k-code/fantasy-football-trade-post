@@ -9,7 +9,7 @@ export const Nav = () => {
         <Contain>
         <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <h5 className="logo">Twelve Wise Men</h5> <TbBallAmericanFootball className="football" />
+                    <h5 className="logo">Twelve Wise Men</h5> 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -42,7 +42,7 @@ a:hover {color: blue;}
 .logo {color: blue}
 .football {height: 2rem; width: 2%; color: brown;}
  
-    
+h5{margin-right: 2rem;}
  
     
 `;

@@ -16,7 +16,7 @@ export const addPost = async (req, res, next) => {
             wantToReceive,
         });
 
-        await post.save
+        await post.save();
 
         return res.status(200).json({ msg: "Post added." });
 
