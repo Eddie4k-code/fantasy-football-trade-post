@@ -9,6 +9,7 @@ export const TradePost = () => {
     const [createOn, setCreateOn] = useState(false);
     const [viewOn, setViewOn] = useState(false);
     const [welcomeOn, setWelcomeOn] = useState(true);
+    const test = []
 
     const turnCreateOn = () => {
         setWelcomeOn(false);
@@ -23,7 +24,7 @@ export const TradePost = () => {
     }
 
     
-  
+    
 
     
 
@@ -38,7 +39,7 @@ export const TradePost = () => {
         <div className="container" id="results">
             {createOn ? <CreatePost /> : null}
 
-            {viewOn && <h1>View On</h1>}
+            {viewOn && <ViewPosts />}
 
             {welcomeOn && <center><h1>Select an option to get started!</h1></center>}
 
