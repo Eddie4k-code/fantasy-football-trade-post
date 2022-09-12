@@ -44,5 +44,5 @@ a:hover {color: blue;}
  
 h5{margin-right: 2rem;}
  
-    
+.navbar-toggler{background-color: white;}
 `;
