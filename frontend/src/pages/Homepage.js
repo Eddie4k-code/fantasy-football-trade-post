@@ -16,9 +16,9 @@ export const Homepage = () => {
 
                     <div className="card">
                         
-                        <center><h5 className="card-header">Sign Up or Login to use the Trade Post!</h5></center>
+                        <center><h5 className="card-header">Show others what your willing to trade!</h5></center>
                         <div className="card-body">
-                            <center><a href="#" className="btn btn-primary">Sign Up / Login</a></center>
+                            <center><a href="#" className="btn btn-primary">Head to Trade Post</a></center>
                         </div>
                     </div>
 

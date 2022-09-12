@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { Homepage } from './pages/Homepage';
+import { TradePost } from './pages/TradePost';
 
 
 
@@ -20,6 +21,7 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Homepage />} />
+                <Route path="/trade_post" element={<TradePost />} />
             </Routes>
 
         </BrowserRouter> 
