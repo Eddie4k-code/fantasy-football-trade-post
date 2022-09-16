@@ -26,3 +26,4 @@
 <h1>View Trade Posts</h1>
 <img src="https://user-images.githubusercontent.com/98666468/190496419-01fc2d96-e5a9-4278-adc2-73f6ed22b596.png"></img>
 
+P.S Twelve-Wise-Men is our fantasy football leauge name haha!
