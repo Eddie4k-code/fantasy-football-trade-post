@@ -1,5 +1,5 @@
 <h1 style="color:blue">Quick Description</h1>
-<div>I created this website for a fantasy football leauge I am in. The issue we were having is we did not have a centralized place where every person in the leauge could post what there willing to trade away and what they would like to receive in return. </div>
+<div>I created this website for a fantasy football league I am in. The issue we were having is we did not have a centralized place where every person in the leauge could post what there willing to trade away and what they would like to receive in return. I quickly made this so that we could put it to use right away </div>
 
 <br></br>
 
